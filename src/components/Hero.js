@@ -12,16 +12,14 @@ function Hero(props) {
                     {props.name}
                 </h1>
                 <p className="font-mono text-lg">{props.subheading}</p>
-                <div className=" ">
-                    {props.buttonData.map((currentLink) => {
-                        return (
-                            <ConnectButton
-                                url={currentLink.link}
-                                text={currentLink.title}
-                            />
-                        );
-                    })}
-                </div>
+                {props.buttonData.map((currentLink) => {
+                    return (
+                        <ConnectButton
+                            url={currentLink.link}
+                            text={currentLink.title}
+                        />
+                    );
+                })}
             </div>
         </section>
     );
