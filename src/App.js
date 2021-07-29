@@ -74,7 +74,7 @@ function App() {
             <NavBar title="Jonathan Daniel" sectionData={sectionData} />
             <Hero
                 name="Jonathan Daniel"
-                subHeading="Computer Science - National Scholars Program"
+                subheading="Computer Science - National Scholars Program"
                 buttonData={buttonData}
             />
             <Hobbies hobbyData={hobbyData} />
