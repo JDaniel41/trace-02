@@ -22,18 +22,21 @@ const buttonData = [
 const hobbyData = [
 	{
 		src: villagerImg,
+		altText: "An image of the Villager from Super Smash Bros. Ultimate",
 		title: "Video Games",
 		description:
 			"I love playing Video Games, especially FIFA and Rocket League! When I'm not playing on my PC, you can also catch me playing Smash as the Villager!",
 	},
 	{
 		src: spotifyImg,
+		altText: "The Spotify Logo",
 		title: "Music",
 		description:
 			"I love listening to music on Spotify! My favorite genres are Hip-Hop, Gospel and EDM. I also love listening to soundtracks from shows like Steven Universe.",
 	},
 	{
 		src: basketballImg,
+		altText: "A basketball resting on the court",
 		title: "Basketball",
 		description:
 			"I love playing basketball to relax! I never played on a team in High School, but you can catch me at Clemson playing 3v3 or 5v5 basketball all the time!",

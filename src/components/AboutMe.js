@@ -1,4 +1,3 @@
-import react from "react";
 import AboutMeDetail from "./AboutMeDetail";
 
 function AboutMe(props) {

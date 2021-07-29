@@ -10,6 +10,7 @@ function Hobbies(props) {
 					return (
 						<HobbyCard
 							imgLink={hobby.src}
+							altText={hobby.altText}
 							hobbyName={hobby.title}
 							hobbyDescription={hobby.description}
 						/>

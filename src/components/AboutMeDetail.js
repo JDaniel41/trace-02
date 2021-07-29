@@ -1,5 +1,3 @@
-import react from "react";
-
 function AboutMeDetail(props) {
 	return (
 		<div className="flex flex-col mb-10 lg:items-start items-center">
