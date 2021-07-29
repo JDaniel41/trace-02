@@ -10,8 +10,13 @@ function NavBar(props) {
             </a>
             <nav>
                 <ul className="md:flex">
-                    {props.sectionNames.map((sectionName) => {
-                        return <NavButton text={sectionName} />;
+                    {props.sectionData.map((section) => {
+                        return (
+                            <NavButton
+                                title={section.title}
+                                link={section.link}
+                            />
+                        );
                     })}
                 </ul>
             </nav>

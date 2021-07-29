@@ -8,7 +8,20 @@ import basketballImg from "./img/basketball.jpeg";
 import spotifyImg from "./img/spotify-logo.jpg";
 import soccerJonathan from "./img/soccer-jon.jpg";
 
-const sectionNames = ["Hero", "About Me"];
+const sectionData = [
+    {
+        link: "#hero",
+        title: "Hero",
+    },
+    {
+        link: "#hobbies",
+        title: "My Hobbies",
+    },
+    {
+        link: "#about",
+        title: "About Me",
+    },
+];
 const buttonData = [
     {
         link: "https://www.linkedin.com/in/jonathandaniel23/",
@@ -58,7 +71,7 @@ const aboutMeDetails = [
 function App() {
     return (
         <div>
-            <NavBar title="Jonathan Daniel" sectionNames={sectionNames} />
+            <NavBar title="Jonathan Daniel" sectionData={sectionData} />
             <Hero
                 name="Jonathan Daniel"
                 subHeading="Computer Science - National Scholars Program"
