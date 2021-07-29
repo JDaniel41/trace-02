@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/trace-02/static/css/main.b2ea95a4.chunk.css",
-    "main.js": "/trace-02/static/js/main.85a6e728.chunk.js",
-    "main.js.map": "/trace-02/static/js/main.85a6e728.chunk.js.map",
+    "main.css": "/trace-02/static/css/main.32a2e80e.chunk.css",
+    "main.js": "/trace-02/static/js/main.e1436d1f.chunk.js",
+    "main.js.map": "/trace-02/static/js/main.e1436d1f.chunk.js.map",
     "runtime-main.js": "/trace-02/static/js/runtime-main.523c1aec.js",
     "runtime-main.js.map": "/trace-02/static/js/runtime-main.523c1aec.js.map",
     "static/js/2.260623a6.chunk.js": "/trace-02/static/js/2.260623a6.chunk.js",
     "static/js/2.260623a6.chunk.js.map": "/trace-02/static/js/2.260623a6.chunk.js.map",
     "index.html": "/trace-02/index.html",
-    "static/css/main.b2ea95a4.chunk.css.map": "/trace-02/static/css/main.b2ea95a4.chunk.css.map",
+    "static/css/main.32a2e80e.chunk.css.map": "/trace-02/static/css/main.32a2e80e.chunk.css.map",
     "static/js/2.260623a6.chunk.js.LICENSE.txt": "/trace-02/static/js/2.260623a6.chunk.js.LICENSE.txt",
     "static/media/basketball.0df2a8c9.jpeg": "/trace-02/static/media/basketball.0df2a8c9.jpeg",
     "static/media/soccer-jon.801a2504.jpg": "/trace-02/static/media/soccer-jon.801a2504.jpg",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.523c1aec.js",
     "static/js/2.260623a6.chunk.js",
-    "static/css/main.b2ea95a4.chunk.css",
-    "static/js/main.85a6e728.chunk.js"
+    "static/css/main.32a2e80e.chunk.css",
+    "static/js/main.e1436d1f.chunk.js"
   ]
 }
