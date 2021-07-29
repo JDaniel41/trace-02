@@ -1,8 +1,6 @@
 import React from "react";
 import HobbyCard from "./HobbyCard";
 
-import villagerLogo from "../img/villager.jpg";
-
 function Hobbies(props) {
 	return (
 		<section id="hobbies" class="bg-gray-100 pt-10">
