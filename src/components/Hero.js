@@ -16,8 +16,8 @@ function Hero(props) {
 					{props.buttonData.map((currentLink) => {
 						return (
 							<ConnectButton
-								url={currentLink[0]}
-								text={currentLink[1]}
+								url={currentLink.link}
+								text={currentLink.title}
 							/>
 						);
 					})}

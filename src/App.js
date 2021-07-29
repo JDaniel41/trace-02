@@ -10,8 +10,14 @@ import soccerJonathan from "./img/soccer-jon.jpg";
 
 const sectionNames = ["Hero", "About Me"];
 const buttonData = [
-	["https://www.linkedin.com/in/jonathandaniel23/", "Connect on LinkedIn!"],
-	["https://www.github.com/jdaniel41/", "Connect on GitHub!"],
+	{
+		link: "https://www.linkedin.com/in/jonathandaniel23/",
+		title: "Connect on LinkedIn!",
+	},
+	{
+		link: "https://www.github.com/jdaniel41/",
+		title: "Connect on GitHub!",
+	},
 ];
 const hobbyData = [
 	{
