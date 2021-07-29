@@ -1,6 +1,7 @@
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import Hobbies from "./components/Hobbies";
+import AboutMe from "./components/AboutMe";
 
 import villagerImg from "./img/villager.jpg";
 import basketballImg from "./img/basketball.jpeg";
@@ -42,6 +43,7 @@ function App() {
 				buttonData={buttonData}
 			/>
 			<Hobbies hobbyData={hobbyData} />
+			<AboutMe />
 		</div>
 	);
 }
