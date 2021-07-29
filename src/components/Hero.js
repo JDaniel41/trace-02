@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import ConnectButton from "./ConnectButton";
 
 function Hero(props) {
@@ -13,7 +12,7 @@ function Hero(props) {
 					{props.name}
 				</h1>
 				<p className="font-mono text-lg">{props.subheading}</p>
-				<div className="flex ">
+				<div className=" ">
 					{props.buttonData.map((currentLink) => {
 						return (
 							<ConnectButton
